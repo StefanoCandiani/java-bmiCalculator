@@ -10,17 +10,19 @@ package bmi.calculator;
  * @author mlarrubia
  */
 
-// Import Scanner Object
+import java.util.Scanner;
 
 public class BMICalculator {
 
     /**
      * @param args the command line arguments
      */
+    private static Scanner in = new Scanner(System.in);
+    
     public static void main(String[] args) {
-        // Create Scanner object
+        Scanner scannerMachine = scan
         
-        // Prompt for weight
+        System.out.println("Your weight in inches:");
         
         // Prompt for height
         
